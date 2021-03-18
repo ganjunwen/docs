@@ -5,11 +5,13 @@
   "repository": "git@github.com:ganjunwen/docs.git",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
   },
   "author": "ganjunwen <458639107@qq.com>",
   "license": "MIT",
   "devDependencies": {
+    "@vuepress/plugin-pwa": "^1.8.2",
     "vuepress": "^1.8.2"
   }
 }
